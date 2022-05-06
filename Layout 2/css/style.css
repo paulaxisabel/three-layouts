@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+header, section, footer, aside, article {
+    border: 5px solid white;
+}
+header, section, footer {
+    width: 100%;
+    float: left;
+}
+header, footer {
+    height: 16vh;
+    clear: both;
+}
+section {
+    height: 26vh;
+}
+aside, article {
+    height: 40vh;
+}
+aside {
+    width: 25%;
+    float: left;
+}
+article {
+    width: 75%;
+    float: right;
+}
+@media screen and (min-width: 1200px) { 
+    header {
+        background-color: #9b5de5;
+    }
+
+    section {
+        background-color: #f15bb5;
+    }
+    
+    aside {
+        background-color:#fee440;
+    }
+
+    article{
+        background-color: #00bbf9;
+    }
+    
+    footer{
+        background-color: #00f5d4;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    header {
+        background-color: #264653;
+    }
+
+    section {
+        background-color: #2a9d8f;
+    }
+
+    aside {
+        background-color:#e9c46a;
+    }
+
+    article{
+        background-color: #f4a261;
+    }
+
+    footer{
+        background-color: #e76f51;;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        background-color: #ef476f;
+    }
+
+    section {
+        background-color: #ffd166;
+    }
+
+    aside {
+        background-color:#06d6a0;
+    }
+    
+    article{
+        background-color: #118ab2;
+    }
+    
+    footer{
+        background-color: #073b4c;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        background-color: #edae49;
+    }
+
+    section {
+        background-color: #d1495b;
+    }
+    
+    aside {
+        background-color:#00798c;
+    }
+
+    article{
+        background-color: #30638e;
+    }
+    
+    footer{
+        background-color: #003d5b;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    header {
+        background-color: #355070;
+    }
+
+    section {
+        background-color: #6d597a;
+    }
+    
+    aside {
+        background-color:#b56576;
+    }
+
+    article{
+        background-color: #e56b6f;
+    }
+    
+    footer{
+        background-color: #eaac8b;
+    }
+}
