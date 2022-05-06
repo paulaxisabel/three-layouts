@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+header, footer, aside, article {
+    border: 5px solid white;
+    float: left;
+}
+header, footer {
+    width: 100%;
+}
+header, footer {
+    height: 19vh;
+}
+aside, article {
+    height: 60vh;
+}
+aside {
+    width: 20%;
+}
+article {
+    width: 40%;
+}
+@media screen and (min-width: 1200px) { 
+    header {
+        background-color: #26547c;
+    }
+    
+    aside {
+        background-color:#ef476f;
+    }
+
+    article{
+        background-color: #ffd166;
+    }
+    
+    footer{
+        background-color: #06d6a0;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    header {
+        background-color: #5fad56;
+    }
+
+    aside {
+        background-color:#f2c14e;
+    }
+
+    article{
+        background-color: #f78154;
+    }
+
+    footer{
+        background-color: #4d9078;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        background-color: #b0d0d3;
+    }
+
+    aside {
+        background-color:#c08497;
+    }
+    
+    article{
+        background-color:#f7af9d;
+    }
+    
+    footer{
+        background-color:#f7e3af;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        background-color: #05668d;
+    }
+
+    aside {
+        background-color:#028090;
+    }
+
+    article{
+        background-color: #00a896;
+    }
+    
+    footer{
+        background-color: #02c39a;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    header {
+        background-color: #ed6a5a;
+    }
+  
+    aside {
+        background-color:#9bc1bc;
+    }
+
+    article{
+        background-color:#f4f1bb; 
+    }
+    
+    footer{
+        background-color: #5ca4a9;
+    }
+}
